@@ -14,7 +14,7 @@ response_count = 0
 # Define o Host, e a url onde será feito a requisição e o Token de autenticação
 host = "provernet.com.br"
 url = "https://{}/webservice/v1/su_mensagens/{}".format(host,id_a_editar)
-token = "246:31c337437fb3431e4376e69f62c98960fccc9b90509c2da096106bf3e6f5256a".encode('utf-8')
+token = "".encode('utf-8')
 
 # Ao iniciar o código printa a hora atual para visualização
 print(f"Horario da inicialização {data_hora_atual}/n")
